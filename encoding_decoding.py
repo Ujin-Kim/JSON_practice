@@ -27,3 +27,16 @@ d_c = json.loads(c)
 print(d_a)
 print(d_b)
 print(d_c)
+
+# .json file 인코딩, 디코딩
+txt = ""
+
+with open("example.json", "r") as f:
+    txt = f.read()
+
+todic = json.loads(txt)
+print(todic)
+
+tojs = json.dumps(txt, indent = 4)
+with open("result.json", "w") as f2:
+    f2.write(tojs)
