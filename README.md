@@ -2,7 +2,7 @@
 JSON 연습
 
 ## setting
-pycharm
+pycharm  
 python
 ```
 import requests
