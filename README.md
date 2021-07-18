@@ -4,9 +4,9 @@ JSON 연습
 ## setting
 pycharm
 python
-'''
+```
 import requests
-'''
+```
 
 ### 구성
 1. json 인코딩, 디코딩
